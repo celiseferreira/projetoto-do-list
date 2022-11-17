@@ -1,0 +1,53 @@
+/*Essa seção altera a fonte da página*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+/*Essa seção altera a fonte da página*/
+
+/*Essa seção altera o corpo, toda a pagina*/
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  /*Essa seção altera o corpo, toda a pagina*/
+
+  /*Essa seção altera o botão ADICIONAR*/
+  button {
+    border: 1px solid rgb(239, 123, 250);
+    border-radius: 5px;
+    background-color: rgb(82, 3, 128);
+    color: rgb(133, 161, 250);
+    text-align: center;
+    padding: 5px;
+  }
+  /*Essa seção altera o botão ADICIONAR*/
+
+  /*Essa seção altera o campo de texto*/
+  input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+ /*Essa seção altera o campo de texto*/
+
+ #tasks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+
+  :checked + label {
+    text-decoration: line-through;
+    color: grey;
+  }
